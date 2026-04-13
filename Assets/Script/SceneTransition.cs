@@ -16,7 +16,6 @@ public class SceneTransition : MonoBehaviour
 
     public void LoadScene(int sceneIndex)
     {
-        Debug.Log($"---Check LoadScene--- {sceneIndex}");
         // Bật panel lên khi bắt đầu fade
         fadePanel.gameObject.SetActive(true);
         StartCoroutine(FadeAndLoad(sceneIndex));
