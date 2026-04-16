@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-
+//test03
 public class BlinkText : MonoBehaviour
 {
     public float speed = 2f;
