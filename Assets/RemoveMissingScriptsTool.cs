@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEditor;
-
+// testttt
 public class RemoveMissingScriptsTool
 {
     [MenuItem("Tools/Remove Missing Scripts In Scene")]
